@@ -1,0 +1,21 @@
+.topbar {
+    width: 100%;
+    height: 50px;
+    background: white;
+
+}
+
+.topbarWrapper {
+    width: 100%;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(247, 129, 82, 0.795);
+    cursor: pointer;
+}
