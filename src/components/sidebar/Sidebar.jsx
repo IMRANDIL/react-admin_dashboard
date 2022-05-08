@@ -32,6 +32,27 @@ const Sidebar = () => {
                         </li>
                     </ul>
                 </div>
+
+
+                <div className="sidebarMenu">
+                    <h3 className='sidebarTitle'>Dashboard</h3>
+                    <ul className="sidebarList">
+                        <li className="sidebarListItem">
+                            <LineStyleIcon />
+                            Home
+                        </li>
+
+                        <li className="sidebarListItem">
+                            <InsightsIcon />
+                            Analytics
+                        </li>
+
+                        <li className="sidebarListItem">
+                            <PointOfSaleIcon />
+                            Sales
+                        </li>
+                    </ul>
+                </div>
             </div>
 
 
