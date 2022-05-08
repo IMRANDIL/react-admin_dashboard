@@ -1,8 +1,8 @@
 import React from 'react'
 import './sidebar.css'
-
-
-
+import LineStyleIcon from '@mui/icons-material/LineStyle';
+import InsightsIcon from '@mui/icons-material/Insights';
+import PointOfSaleIcon from '@mui/icons-material/PointOfSale';
 
 
 
@@ -10,7 +10,33 @@ import './sidebar.css'
 
 const Sidebar = () => {
     return (
-        <div className='sidebar'>Sidebar</div>
+        <div className='sidebar'>
+
+            <div className="sidebarWrapper">
+                <div className="sidebarMenu">
+                    <h3 className='sidebarTitle'>Dashboard</h3>
+                    <ul className="sidebarList">
+                        <li className="sidebarListItem">
+                            <LineStyleIcon />
+                            Home
+                        </li>
+
+                        <li className="sidebarListItem">
+                            <InsightsIcon />
+                            Analytics
+                        </li>
+
+                        <li className="sidebarListItem">
+                            <PointOfSaleIcon />
+                            Sales
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
     )
 }
 
