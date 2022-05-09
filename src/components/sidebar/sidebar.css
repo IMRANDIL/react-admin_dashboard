@@ -36,6 +36,11 @@
 
 }
 
+.sidebarIcon {
+    margin-right: 5px !important;
+    font-size: 20px !important;
+}
+
 .sidebarListItem.active,
 .sidebarListItem:hover {
     background: rgb(206, 206, 245);
