@@ -8,7 +8,7 @@ import Inventory2Icon from '@mui/icons-material/Inventory2';
 import PaidIcon from '@mui/icons-material/Paid';
 import ReportIcon from '@mui/icons-material/Report';
 import MailIcon from '@mui/icons-material/Mail';
-import FeedbackIcon from '@mui/icons-material/Feedback';
+import RssFeedIcon from '@mui/icons-material/RssFeed';
 import ForumIcon from '@mui/icons-material/Forum';
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import AssessmentIcon from '@mui/icons-material/Assessment';
@@ -48,18 +48,22 @@ const Sidebar = () => {
                     <h3 className='sidebarTitle'>Quick Menu</h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem">
-                            <LineStyleIcon className='sidebarIcon' />
-                            Home
+                            <PersonIcon className='sidebarIcon' />
+                            Users
                         </li>
 
                         <li className="sidebarListItem">
-                            <InsightsIcon className='sidebarIcon' />
-                            Analytics
+                            <Inventory2Icon className='sidebarIcon' />
+                            Products
                         </li>
 
                         <li className="sidebarListItem">
-                            <PointOfSaleIcon className='sidebarIcon' />
-                            Sales
+                            <PaidIcon className='sidebarIcon' />
+                            Transactions
+                        </li>
+                        <li className="sidebarListItem">
+                            <ReportIcon className='sidebarIcon' />
+                            Reports
                         </li>
                     </ul>
                 </div>
@@ -68,38 +72,38 @@ const Sidebar = () => {
                     <h3 className='sidebarTitle'>Notifications</h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem">
-                            <LineStyleIcon className='sidebarIcon' />
-                            Home
+                            <MailIcon className='sidebarIcon' />
+                            Mail
                         </li>
 
                         <li className="sidebarListItem">
-                            <InsightsIcon className='sidebarIcon' />
-                            Analytics
+                            <RssFeedIcon className='sidebarIcon' />
+                            Feedback
                         </li>
 
                         <li className="sidebarListItem">
-                            <PointOfSaleIcon className='sidebarIcon' />
-                            Sales
+                            <ForumIcon className='sidebarIcon' />
+                            Messages
                         </li>
                     </ul>
                 </div>
 
                 <div className="sidebarMenu">
-                    <h3 className='sidebarTitle'>Staffs</h3>
+                    <h3 className='sidebarTitle'>Staff</h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem">
-                            <LineStyleIcon className='sidebarIcon' />
-                            Home
+                            <ManageAccountsIcon className='sidebarIcon' />
+                            Manage
                         </li>
 
                         <li className="sidebarListItem">
-                            <InsightsIcon className='sidebarIcon' />
+                            <AssessmentIcon className='sidebarIcon' />
                             Analytics
                         </li>
 
                         <li className="sidebarListItem">
-                            <PointOfSaleIcon className='sidebarIcon' />
-                            Sales
+                            <ReportProblemIcon className='sidebarIcon' />
+                            Reports
                         </li>
                     </ul>
                 </div>
