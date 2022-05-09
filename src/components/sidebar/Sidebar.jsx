@@ -7,12 +7,12 @@ import PersonIcon from '@mui/icons-material/Person';
 import Inventory2Icon from '@mui/icons-material/Inventory2';
 import PaidIcon from '@mui/icons-material/Paid';
 import ReportIcon from '@mui/icons-material/Report';
-
-
-
-
-
-
+import MailIcon from '@mui/icons-material/Mail';
+import FeedbackIcon from '@mui/icons-material/Feedback';
+import ForumIcon from '@mui/icons-material/Forum';
+import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
+import AssessmentIcon from '@mui/icons-material/Assessment';
+import ReportProblemIcon from '@mui/icons-material/ReportProblem';
 
 
 
