@@ -16,18 +16,18 @@ const Sidebar = () => {
                 <div className="sidebarMenu">
                     <h3 className='sidebarTitle'>Dashboard</h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem">
-                            <LineStyleIcon />
+                        <li className="sidebarListItem active">
+                            <LineStyleIcon className='sidebarIcon' />
                             Home
                         </li>
 
                         <li className="sidebarListItem">
-                            <InsightsIcon />
+                            <InsightsIcon className='sidebarIcon' />
                             Analytics
                         </li>
 
                         <li className="sidebarListItem">
-                            <PointOfSaleIcon />
+                            <PointOfSaleIcon className='sidebarIcon' />
                             Sales
                         </li>
                     </ul>
