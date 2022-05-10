@@ -61,7 +61,9 @@ const Chart = () => {
             <h3 className="chartTitle">Sales Analytics</h3>
 
 
-            <ResponsiveContainer width='100%'>
+            <ResponsiveContainer width='100%' aspect={4 / 1}>
+
+                <LineChart></LineChart>
 
             </ResponsiveContainer>
         </div>
