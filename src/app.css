@@ -2,10 +2,3 @@
     display: flex;
 
 }
-
-.other {
-    flex: 5;
-    background-color: red;
-    color: white;
-
-}
