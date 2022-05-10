@@ -18,6 +18,26 @@ const FeaturedInfo = () => {
                 </div>
                 <span className="featuredSub">Compared to last month</span>
             </div>
+
+            <div className="featuredItem">
+                <span className="featuredTitle">Sales</span>
+                <div className="featuredMoneyContainer">
+                    <span className="featuredMoney">$14,147</span>
+                    <span className="featuredMoneyRate">-10.4 <ArrowDownwardIcon /></span>
+
+                </div>
+                <span className="featuredSub">Compared to last month</span>
+            </div>
+
+            <div className="featuredItem">
+                <span className="featuredTitle">Cost</span>
+                <div className="featuredMoneyContainer">
+                    <span className="featuredMoney">$2,14,147</span>
+                    <span className="featuredMoneyRate">+5.4 <ArrowUpwardIcon /></span>
+
+                </div>
+                <span className="featuredSub">Compared to last month</span>
+            </div>
         </div>
     )
 }
