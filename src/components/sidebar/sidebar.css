@@ -4,9 +4,7 @@
     background: rgb(224, 224, 238);
     position: sticky;
     top: 50px;
-    overflow-y: scroll;
-    bottom: 0;
-    overflow-x: hidden;
+
 
 
 }
