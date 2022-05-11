@@ -21,7 +21,7 @@ const Chart = ({ title, data, dataKey, grid }) => {
 
                 <LineChart data={data}>
                     <XAxis dataKey='name' stroke='#5550be' />
-                    <Line type='monotone' dataKey='Active User' stroke='#5550be' />
+                    <Line type='monotone' dataKey={dataKey} stroke='#5550be' />
                     <Tooltip />
                     {grid && <CartesianGrid stroke='#e0dfdf' strokeDasharray='5 5' />}
 
