@@ -84,6 +84,7 @@ const Chart = () => {
                 <LineChart data={data}>
                     <XAxis dataKey='name' stroke='#5550be' />
                     <Line type='monotone' dataKey='Active User' stroke='#5550be' />
+                    <Tooltip />
                 </LineChart>
 
             </ResponsiveContainer>
