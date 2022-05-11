@@ -11,38 +11,63 @@ const Chart = () => {
 
     const data = [
         {
-            name: 'Page A',
+            name: 'Jan',
             'Active User': 4000,
 
         },
         {
-            name: 'Page B',
+            name: 'Feb',
             'Active User': 3000,
 
         },
         {
-            name: 'Page C',
+            name: 'March',
             'Active User': 2000,
 
         },
         {
-            name: 'Page D',
+            name: 'Apr',
             'Active User': 2780,
 
         },
         {
-            name: 'Page E',
+            name: 'May',
             'Active User': 1890,
 
         },
         {
-            name: 'Page F',
+            name: 'June',
             'Active User': 2390,
 
         },
         {
-            name: 'Page G',
+            name: 'July',
             'Active User': 3490,
+
+        },
+        {
+            name: 'Aug',
+            'Active User': 3090,
+
+        },
+        {
+            name: 'Sept',
+            'Active User': 3590,
+
+        },
+        {
+            name: 'Oct',
+            'Active User': 3990,
+
+        },
+        {
+            name: 'Nov',
+            'Active User': 3190,
+
+        },
+        {
+            name: 'Dec',
+            'Active User': 3790,
 
         },
     ];
