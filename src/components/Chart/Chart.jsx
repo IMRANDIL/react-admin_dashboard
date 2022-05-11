@@ -58,12 +58,15 @@ const Chart = () => {
 
     return (
         <div className='chart'>
-            <h3 className="chartTitle">Sales Analytics</h3>
+            <h3 className="chartTitle">User Analytics</h3>
 
 
             <ResponsiveContainer width='100%' aspect={4 / 1}>
 
-                <LineChart></LineChart>
+                <LineChart data={data}>
+                    <XAxis dataKey='name' stroke='#5550be' />
+                    <Line type='monotone' dataKey='Active User' stroke='#5550be' />
+                </LineChart>
 
             </ResponsiveContainer>
         </div>
