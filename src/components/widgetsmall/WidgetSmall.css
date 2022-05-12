@@ -6,6 +6,12 @@
     margin-right: 20px;
 }
 
+.widgetSmList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 .widgetSmTitle {
     font-size: 32px;
@@ -17,4 +23,10 @@
     height: 40px;
     border-radius: 50%;
     cursor: pointer;
+    object-fit: cover;
+}
+
+.widgetSmListItem {
+    display: flex;
+    align-items: center;
 }
