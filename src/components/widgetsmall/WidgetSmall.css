@@ -24,9 +24,42 @@
     border-radius: 50%;
     cursor: pointer;
     object-fit: cover;
+
 }
 
 .widgetSmListItem {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.widgetSmUser {
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetSmUsername {
+    font-weight: 600;
+
+}
+
+.widgetSmUserJobTitle {
+    font-weight: 300;
+}
+
+.widgetSmBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    background-color: #8482a175;
+    color: rgb(94, 68, 68);
+}
+
+.widgetSmIcon {
+    font-size: 16px;
+    margin-right: 5px;
 }
