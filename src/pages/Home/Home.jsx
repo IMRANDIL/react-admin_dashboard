@@ -4,6 +4,8 @@ import FeaturedInfo from '../../components/FeaturedInfo/FeaturedInfo'
 import './Home.css'
 
 import { userData } from '../../dummyData';
+import WidgetSmall from '../../components/widgetsmall/WidgetSmall';
+import WidgetLarge from '../../components/widgetLarge/WidgetLarge';
 
 
 
@@ -13,7 +15,10 @@ const Home = () => {
         <div className='home'>
             <FeaturedInfo />
             <Chart data={userData} title='User Analytics' grid dataKey='Active User' />
-            <div className="homeWidgets"></div>
+            <div className="homeWidgets">
+                <WidgetSmall />
+                <WidgetLarge />
+            </div>
         </div>
     )
 }

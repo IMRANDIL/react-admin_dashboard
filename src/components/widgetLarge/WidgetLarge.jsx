@@ -7,7 +7,7 @@ import './WidgetLarge.css';
 
 const WidgetLarge = () => {
     return (
-        <div>WidgetLarge</div>
+        <div className='widgetLarge'>WidgetLarge</div>
     )
 }
 

@@ -6,7 +6,9 @@ import './WidgetSmall.css';
 
 const WidgetSmall = () => {
     return (
-        <div>WidgetSmall</div>
+        <div className='widgetSmall'>
+            small
+        </div>
     )
 }
 
