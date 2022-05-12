@@ -1,6 +1,6 @@
 import React from 'react'
 import './WidgetSmall.css';
-
+import VisibilityIcon from '@mui/icons-material/Visibility';
 
 
 
@@ -15,6 +15,10 @@ const WidgetSmall = () => {
                         <span className="widgetSmUsername">Ali Imran Adil</span>
                         <span className="widgetSmUserJobTitle">Software Engineer</span>
                     </div>
+                    <button className="widgetSmBtn">
+                        <VisibilityIcon />
+                        Display
+                    </button>
                 </li>
             </ul>
         </div>
